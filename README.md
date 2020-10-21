@@ -24,4 +24,4 @@ Specify this game in the program as GTA V
 
 
 ## Releases
-Latest(https://github.com/Vulcan19rl/GameHubGameAdder/releases)
+[Latest](https://github.com/Vulcan19rl/GameHubGameAdder/releases)
