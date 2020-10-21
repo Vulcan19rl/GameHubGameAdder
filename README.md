@@ -6,6 +6,8 @@ Created for Windows. Not guaranteed to work for all games. Let me know if a spec
 ## Requirements
 ###### GameHub2: 
 https://github.com/callmeEthan/GameHUB2
+###### Rainmeter: 
+https://www.rainmeter.net/
 
 
 ## Usage
