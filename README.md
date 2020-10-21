@@ -21,3 +21,6 @@ game_adder.exe -r "C:\Users\Vulcan\Documents\Rainmeter\Skins\GameHUB 2\@Resource
 ## Game info
 ###### Grand Theft Auto 5:
 Specify this game in the program as GTA V
+
+
+## Releases
