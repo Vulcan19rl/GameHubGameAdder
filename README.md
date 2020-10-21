@@ -5,7 +5,7 @@ Created for Windows. Not guaranteed to work for all games. Let me know if a spec
 
 ## Requirements
 ###### GameHub2: 
-https://github.com/callmeEthan/GameHUB2
+https://www.deviantart.com/not-finch/art/GameHUB-launcher-2-for-Rainmeter-785369648
 ###### Rainmeter: 
 https://www.rainmeter.net/
 
