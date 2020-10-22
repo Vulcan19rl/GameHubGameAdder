@@ -168,12 +168,14 @@ def is_valid_exe(game_name, exe_name):
         if(matching_first):
             for char in game_name:
                 if(char in exe_name):
+                    game_name = game_name.replace(char, "", 1)
                     matching_chars += 1
         return matching_first and matching_chars >= 3 and len(exe_name) <= len(game_name)
 
 
 def save_image(url, path):
-    urllib.request.urlretrieve(url, path)
+    if(url != ""):
+        urllib.request.urlretrieve(url, path)
 
 def save_image_and_resize(url, path):
     save_image(url, path)
@@ -243,10 +245,10 @@ def generate_game(game):
         if(game.isnumeric()):
             return generate_game_from_steam(game)
         else:
-            return generate_game_general(game)
-            """
+           return generate_game_general(game)
+           """
             try:
-               
+                
             except Exception as e:
                 print(e)
                 print("Could not generate " + str(game))
