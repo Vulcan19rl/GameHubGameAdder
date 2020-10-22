@@ -1,4 +1,4 @@
-# GameHubGameAdder
+# Game Hub 2 Game Adder
 ## Description
 This program automatically generates entries for your games in gamehub2. Currently supports steam games and general exes. Downloads a game background, icon and sets the exe. 
 Created for Windows. Not guaranteed to work for all games. Let me know if a specific game provides issues.
