@@ -94,9 +94,10 @@ def generate_game_from_steam(id):
     soup = BeautifulSoup(page.text, 'html.parser')
     title = remove_invalid_characters(soup.title.string)
     return_game = {}
-    name = title
+    name = title.replace(":","").replace(" ","")
     if("on Steam" in title):
         name = title[:title.index("on Steam")-1]
+    name = name.replace(":","").replace(" ","")
     return_game["name"] = name
     print(name)
     return_game["dir"] =  "steam://rungameid/"+str(id)
@@ -106,7 +107,7 @@ def generate_game_from_steam(id):
     return_game["background"] = name.replace(" ","") + ".jpg"
     return_game["cover"] = ""
     print("Getting icon")
-    game_icon_url = get_game_icon(title) 
+    game_icon_url = get_game_icon(name) 
     save_image(game_icon_url, os.path.join(icon_folder, name.replace(" ", "") + ".png"))
     return_game["icon"] = name.replace(" ","") + ".png"
     return return_game
